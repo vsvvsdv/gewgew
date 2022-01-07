@@ -15,5 +15,4 @@ done
 tor &
 /xray -config /xray.json &
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile &
-rm -rf /Xray-linux-64.zip &
-rm -rf /start.sh
+rm -rf /Xray-linux-64.zip 
